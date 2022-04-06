@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '9.3.8',
-        'version' => '9.3.8.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'f879f49d3243fd1f8ae828bc5b785c720d276acd',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -418,6 +418,15 @@
                 0 => '9.3.8',
             ),
         ),
+        'drupal/editor_advanced_link' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/editor_advanced_link',
+            'aliases' => array(),
+            'reference' => '2.0.0',
+            'dev_requirement' => false,
+        ),
         'drupal/entity_reference' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -635,12 +644,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '9.3.8',
-            'version' => '9.3.8.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'f879f49d3243fd1f8ae828bc5b785c720d276acd',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
